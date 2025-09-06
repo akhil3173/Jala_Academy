@@ -1,2 +1,3 @@
-def arithmetic_ops(a, b):
-    return a + b, a - b, a * b, a / b
+a = int(input())
+b = int(input())
+print(a + b, a - b, a * b, a / b)
