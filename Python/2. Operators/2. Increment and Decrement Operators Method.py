@@ -5,3 +5,9 @@ class Number:
         self.value += 1
     def decrement(self):
         self.value -= 1
+
+n = Number(int(input()))
+n.increment()
+print(n.value)
+n.decrement()
+print(n.value)
