@@ -1,0 +1,7 @@
+filename = input("Enter filename for random access read: ")
+f = open(filename, "r")
+pos = int(input("Enter position to start reading: "))
+f.seek(pos)
+data = f.read()
+print(data)
+f.close()
