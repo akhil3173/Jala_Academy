@@ -1,0 +1,6 @@
+s1 = input("Enter string s1: ")
+s2 = str(input("Enter string s2: "))
+s3 = '' + input("Enter string s3: ")
+print(s1)
+print(s2)
+print(s3)
