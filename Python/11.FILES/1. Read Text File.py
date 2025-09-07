@@ -1,0 +1,5 @@
+filename = input("Enter filename to read: ")
+f = open(filename, "r")
+data = f.read()
+print(data)
+f.close()
