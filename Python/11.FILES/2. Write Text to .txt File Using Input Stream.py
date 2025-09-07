@@ -1,0 +1,5 @@
+filename = input("Enter filename to write: ")
+text = input("Enter text to write: ")
+f = open(filename, "w")
+f.write(text)
+f.close()
